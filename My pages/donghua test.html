@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>吴江昊的个人主页</title>
+    <!--
+
     <style type="text/css">
         body{
             background-image:url(./images/29.jpg) ;
@@ -20,8 +22,54 @@
             animation:myfirst 2s  infinite;
         }
     </style>
+
+    -->
+    <style type="text/css">
+        p{
+            width: 500px;
+          height: 20px;
+            color: chartreuse;
+            border: 2px salmon solid;/* 三个属性 边框宽度 边框颜色 边框样式 solid （标示单实线）*/
+            background-color: aquamarine;
+        }
+
+    </style>
+    <!-- 外部样式表说明  必须要有rel="stylesheet"    -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
 </head>
 <body>
+<div style="color: brown;width: 200px;height: 200px;border:10px #ccc solid;background-color: aquamarine">
+    <!-- 这里border 分别是边框的宽度 边框的颜色 边框的形态  （中间空格隔开）-->
+    测试！！
+</div>
+<!--CSS语法
+1.分为两部分，选择符和声明
+2.声明又分为两部分，属性和属性值
+3.属性和属性之间用 分号 分割，属性和属性值之间用 冒号 连接
+
+选择符{ 属性:属性值;属性值 } 用英文符号！！
+-->
+
+<!--
+常用CSS基本属性 ！
+color（文字的字体颜色）
+border （边框）
+width(宽度)
+height （高度）
+background-color (背景颜色)
+herf （超链接）
+
+CSS语法之 三种链接模式
+1.内链接样式 行内样式    写在标签里面  29行的样子
+2.内部样式表                 一定写在head里面
+3.外部样式表                 （最常用 最推荐的！！）
+
+三种样式表的优先级：
+内部样式表和外部样式表优先级根据他们所在的位置决定，谁在下边，显示谁的！
+行内样式表 优先级最高！
+
 <audio src="mp4/一百万个可能.mp3" controls="controls" autoplay="autoplay">
 </audio>
 <!--img src="./images/16.jpg-->
@@ -30,5 +78,16 @@
 <p>这是一个测试界面</p>
 <p>这是一个测试界面</p>
 <p>这是一个测试界面</p>
+<ul>
+    <!-- ## 代表点击标签不进行跳转-->
+    <li><a href="##">谷歌</a></li>
+    <li><a href="##">啊歌</a></li>
+    <li><a href="##">谷的歌</a></li>
+</ul>
+
+
+
+
+
 </body>
 </html>
