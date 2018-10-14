@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.bgimg{
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid #00ff00;
+    /*背景颜色*/
+    /*background-color: darkblue;*/
+
+    /*背景图片
+    显示的先决条件：这个背景这个元素一定要有尺寸，也就是6/7行的问题
+
+    重要*/
+    /*默认图片平铺 （元素尺寸大于背景图片）*/
+    background-image:url("学习图片/美女.jpg");
+
+    /*背景图片的平铺属性*/
+    /* * repeat : 平铺
+       * no-repeat 不平埔
+       * repeat-x    x轴平铺
+       * repeat-y    y轴平铺
+     */
+    background-repeat:no-repeat ;
+
+/* 背景图片的起始显示位置
+水平方向上 left center right
+竖直方向上 top  center bottom
+ background-position: 水平 竖直;
+ */
+background-position:  center;
+
+    /*背景图片尺寸设置
+    * 宽高：px
+    * 百分百
+    * Cover 等比例放大或缩小：背景图片完全覆盖背景元素，但存在某些元素不能显示
+    * contain 等比例放大缩小，但是只要有一个方向盛满元素，就不在进行变化 使用率低！
+     */
+    background-size: contain;
+
+    /*缩写方式*/
+    /*background: 背景图片的地址 平铺 显示位置;*/
+/*background: url("学习图片/美女.jpg"  )no-repeat center ;*/
+
+
+}

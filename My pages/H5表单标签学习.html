@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body bgcolor="#f0ffff"> bgcolor 是Body背景颜色
+
+表单标签：<form></form> 双标记
+from属性： 1.name 表单名
+           2.action 表单内容要发送的地址
+            3.method 发送方式
+                A. get:发送内容信息小 传输速度快 不安全
+                B. post:发送内容信息大 传输速度慢 安全
+input标签:获取用户信息<input> 单标签 和from配合使用
+属性：1.type 类型
+        看学习图片Type
+        2.value 关键字
+        3.name 名字
+
+textarea文本域介绍
+<textarea name="个人简介" rows="500px">da大大大</textarea> 文本域双标记
+属性：1：name 命名
+        2.rows 文本高度
+        3.cols 文本宽度
+
+select下拉列表
+<select>dada</select> 双标记
+属性：option 列表选项
+
+video 视频表单
+见视频表单
+
+音频表单
+见音频表单
+
+<br>
+表单标签练习
+<form action="101" method="post">
+    <br>
+    账号
+    <input type="text" name="" id="" value="" title="">
+    <br>
+    <br>
+    密码
+    <input type="text" name="" id="" value="" title="">
+    <br>
+    <br>
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+    <br>
+    <br>
+    <input type="radio" name="d">A   <!--这里要单选必须统一命名-->
+    <input type="radio" name="d">B
+    <input type="radio" name="d">C
+    <input type="radio" name="d">D
+    <br>
+    <br>
+    <input type="checkbox">A    <!--这里的Checkbk 是复选框-->
+    <input type="checkbox">B
+    <input type="checkbox">C
+    <input type="checkbox">D
+    <br>
+    <br>
+    <input type="file" name="" id="" value="">
+
+</form>
+
+<br>
+个人介绍
+<textarea name="" rows=" " cols=""></textarea><!-- rows 宽度   cols高度-->
+<br>
+<br>
+
+下拉列表
+<br>
+<select name="">
+    <option value="">A</option>
+    <option value="">B</option>
+    <option value="">C</option>
+    <option value="">D</option>
+    <option value="">E</option>
+    <option value="">F</option>
+</select>
+<br>
+<br>
+
+播放控件学习
+<video src="voides/99%25.mp4" width="1080"
+       controls="controls" poster="banner/网站banner.jpg" autoplay="autoplay"
+       loop="loop"  muted="muted"></video>
+
+       <audio src="mp4/一百万个可能.mp3" controls="controls" autoplay="autoplay"></audio>
+
+
+
+</body>
+</html>

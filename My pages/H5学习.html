@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签学习</title>
+</head>
+<body>
+<img src="banner/网站banner.jpg" height="655" width="1917" id="cui"><!-- id是命名字 -->
+段落
+<p>我是哟个段落</p>
+
+换行
+<br> 注意换行是单标签
+
+水平线
+<hr>
+
+加粗
+<b>我是加粗其中之一</b>
+<strong>我也是加粗之一</strong>
+
+倾斜
+<i>这是一个倾斜</i>
+<em>这也是倾斜</em>
+<cite>这还是倾斜</cite>
+
+下划线
+<u>这是一个下划线</u>
+
+删除线
+<S>这是删除线</S>
+
+标题标签
+<h1>这是标题标签</h1> 有H1-H6 H1最大
+<h2>这是标题标签</h2>
+<h3>这是标题标签</h3>
+<h4>这是标题标签</h4>
+<h5>这是标题标签</h5>
+<h6>这是标题标签</h6>
+
+超链接标签 （herf是属性值）
+<a href="https://www.bilibili.com/">bilili</a> （注意这里＃号就是没有连接）
+
+列表标签教学
+<!--ul 是无序列表-->
+这里的type是列表前面点的类型
+<ul type="square">  是无序列表标签 他是一个组合标签 他的小弟是li,li标签可以有多项
+    <li >
+        第一项
+    </li>
+    <li >
+        第二项
+    </li>
+</ul>
+
+<!--有序列表标签ol 有顺序的-->有序列表例子
+<ol type="I">
+    <li>
+        这是有序列表的东东
+    </li>
+    <li>
+        这是有的东东
+    </li>
+    <li>
+        a'da'd
+    </li>
+</ol>
+
+
+无序列表实际例子：
+<ul>
+    <li>
+        <a href="https://www.bilibili.com/">bilili</a> （注意这里＃号就是没有连接）
+    </li>
+    <li>
+        <a href="https://www.baidu.com/">baidu</a> （注意这里＃号就是没有连接）
+    </li>
+    <li>
+        <a href="https://www.baidu.com/">baidu</a> （注意这里＃号就是没有连接）
+    </li>
+</ul>
+
+<!--自定义列表
+<dt> 就是顶格的 属于标题
+<dd> 缩进5个字符 一个汉字2个字符
+-->
+<dl>
+    <dt>圣诞节</dt>
+    <dd>圣诞老师</dd>
+    <dd>麋鹿</dd>
+    <dd>礼物</dd>
+
+</dl>
+
+
+图像标签学习
+<!-- title属性就是图片的名字-->
+<!-- alt当图片出现错误的提示信息-->
+ <img src="banner/网站banner.jpg" height="655" width="1917" title="这是banner测试" alt="出错了"
+      data-zoom-img-src="banner/网站banner.jpg">
+
+相对路径与绝对路径
+<!--相对路径
+src 是在当前目录下找东西
+如果加上../ 是返回上级标签
+-->
+
+<!--绝对路径
+根据电脑盘符进行调用
+-->
+<img src="F:\去日本照片/IMG_0013"/> 拉了裤里 无法解析
+
+表格标签介绍
+<!--
+table 表格标签
+Bother 边框宽度
+cellspacing 单元格与单元格的距离
+cellpadding 表格内上下左右的距离调整
+tr 是行
+td 是单元格
+caption 是表头
+cospan =“这里面是合并成几个”   行合并
+rowspan="这里面是合并成几个"    列合并
+-->
+<table border="1px" cellspacing="20" cellpadding="20">
+    <caption>这是表头</caption>
+    <tr>
+        <th colspan="2" rowspan="2">Header</th>
+        <th>Header</th>
+    </tr>
+    <tr>
+        <td >DATA</td>
+        <td>DATA</td>
+
+    </tr>
+</table>
+毛链接 用来返回顶部
+<a href="#cui">返回顶部</a>
+<a href="http://www.lanrentuku.com/s.php?typeid=1&q=%C0%CB" target="_blank">百度</a>
+</body>

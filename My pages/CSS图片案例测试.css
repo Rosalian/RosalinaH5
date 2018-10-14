@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: "微软雅黑";
+}
+a{
+    /* 文本修饰取消*/
+    text-decoration: none;
+
+}
+
+.adw{
+    /*下面这行是居中*/
+    margin:0 auto;
+    width: 700px;
+    height: 300px;
+    background: url("学习图片/banner测试.png") no-repeat left top;
+}
+.adw .ietm {
+    padding:20px 20px 20px 20px;
+}
+
+.adw .ietm h3{
+    /*  font-weight 字体粗细*/
+    font-weight: normal;
+
+    /*字号大小*/
+    font-size: 50px;
+    height: 30px;
+    color: #ff360e;
+}
+.adw .ietm p{
+    font-weight: normal;
+
+    /*字号大小*/
+    font-size: 50px;
+    height: 30px;
+    color: #ff360e;
+}
+
+.adw .ietm a{
+    color: #ffcc25;
+    background-color: #ff360e;
+    padding: 10px 20px;
+}
