@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none; /*通配符 所有下划线搞掉*/
+}
+ul,li{
+    list-style: none;   /*通配符 列表样式取消*/
+}
+
+body{
+    height: 3000px;
+    width: 100%;
+    background-image: url("../img/shattered-island.png");
+
+
+}
+.top_banner{
+    display: block;
+    height: 654px;
+    width: 100%;
+    background-image: url("../img/bander.png");
+    background-repeat: no-repeat; /*设置背景图片不平铺*/
+    margin: 0 auto;
+    background-position: center center;/*设置背景图片居中*/
+}
+
+
+.top_warp{
+    height: 52px;
+    width: 100%;
+    background:rgba(0,0,0,0.5);
+    box-shadow:0 16px 24px -6px rgba(0,0,0,0.5) ;
+    /*box-shadow是给元素块添加周边阴影效果*/
+/*基本语法是{box-shadow:[inset] x-offset y-offset blur-radius spread-radiuscolor}*/
+    /*对象选择器 {box-shadow:[投影方式] X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色}*/
+}
+
+.top{
+    width: 1200px;
+    margin: 0 auto; /*左右居中书写*/
+    overflow: hidden;
+
+}
+
+.top_left{
+    display: block;
+    float: left;
+    font-family: "思源黑体";
+
+    font-size:16px ;
+}
+.top_right{
+    display: block;
+    float: right;
+    font-family: "思源黑体";
+
+    font-size:16px ;
+}
+.top a{
+    color: #f5f5f5;
+    padding-left: 16px;
+    line-height: 52px; /*行高*/
+
+}
+dadad
+.top_right .top_search{dadaskdl;asdkl;a
+    float: right;
+    width:204px;
+    height: 28px;
+    padding-left: 14px;
+    margin-top: 12px;
+}
+.top_right .top_search .top_search_form{
+    display: block;
+    width: 170px;
+    height: 28px;
+    padding: 0px 0px 0px 8px;
+    border-radius:5px;     /*圆角弧度*/
+    border: 0.8px solid #5d5d5d;
+}
+
+
+.top_search input{
+    width: 100%;
+    height: 24px;
+    color: #ffffff;
+    background-color: #000000;
+    opacity:0.9; /*透明度*/
+    border: none;
+    line-height: 28px;
+}
+
+
+/*item区*/
+.item{
+    height: 2170px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../img/图层10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.item .item_content {
+    width: 1142px;             /*这里尺寸注意，padding把元素撑开了,尺寸要变换*/
+    height: 2170px;
+    margin: 0 auto;
+    padding:20px 29px 0px 29px  ;
+    background-color:rgba(0,0,0,0.2) ;
+}
+
+.item .item_content .box1{
+    display: block;
+    width: 1142px;
+    height: 502px;
+    background-color:rgba(255,255,255,0.7) ;
+}
+
+.box1_left{
+    width: 725px;
+    height: 502px;
+    float: left;
+}
+.box1_left h3{
+    width: 668px;
+    padding-top: 23px;
+    color: #1a1a1a;
+    margin-left: 32px;
+    padding-bottom: 15px;
+    font-size: 45px;
+    font-family: '思源黑体';
+    font-weight:normal;
+    line-height: 42px;
+    text-align: left;
+    border-bottom:solid 3px #1a1a1a ;
+}
+.box1_left p{
+    padding-top: 14px;
+    color: #1a1a1a;
+    padding-left: 32px;
+
+    font-size: 16px;
+    font-family: '思源黑体';
+    font-weight:normal;
+    line-height: 1.5em;
+
+}
+
+.box1_right{
+    width: 415px;
+    height: 502px;
+    position: relative;
+    float: right;
+    border-left:solid 2px #000000;
+}
+.box1_right .box1_right_img{
+    float: right;
+    width: 194px;
+    height: 194px;
+    border: 4px solid #fefeff;   /*这里给一个边框*/
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 55px 111px 22px 111px;
+}
+.box1_right .box1_right_img img{
+    transition: all 0.8s;
+}
+
+/*头像交互动画*/
+.box1_right_img:hover img{
+    transform: rotate(270deg);
+}
+
+
+.box1_right_text{
+    width: 414px;
+    height: 248px;
+
+}
+.box1_right_text h3{
+    color: #333333;
+    font-size: 30px;
+    font-family: '思源黑体';
+    line-height: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.box1_right_text h2{
+    color: #333333;
+    font-size: 16px;
+    font-family: '思源黑体';
+    line-height: 1em;
+    font-weight: normal;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.box1_right_text p{
+    color: #333333;
+    font-size: 16px;
+    font-family: '思源黑体';
+    line-height: 1.5em;
+    /*首行缩进 缩进2个字符*/
+    text-indent: 32px;
+    padding: 0 30px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bottom区*/
+.bottom{
+    height: 170px;
+    width: 100%;
+    background-color: #121317;
+}
